@@ -4,10 +4,10 @@
 
 .headerSubtitle{
     @apply flex items-center gap-x-1 text-xl font-semibold leading-6
-    text-white p-2 border-b-4 border-transparent uppercase hover:border-white;
+    text-white p-2 border-b-4 border-transparent uppercase tracking-wide hover:border-white;
   }
   
   .headerSubtitleMobile{
      @apply -mx-3 block rounded-lg py-2 px-3 text-base font-semibold 
-     leading-7 text-white uppercase;
+     leading-7 text-white tracking-wide uppercase;
   }
