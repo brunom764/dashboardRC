@@ -1,5 +1,4 @@
 import Typical from 'react-typical';
-import 'animate.css';
 import './banner.css'
 
 
