@@ -1,6 +1,7 @@
 import './App.css';
 import About from './compoments/about';
 import Banner from './compoments/banner';
+import Field from './compoments/field';
 import Header from './compoments/header';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Banner/>
       <About/>
+      <Field/>
     </>
   );
 }

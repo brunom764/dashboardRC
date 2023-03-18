@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .headerSubtitle{
-    @apply flex items-center gap-x-1 text-lg leading-6
+    @apply flex items-center gap-x-1 leading-6
     text-white p-2 border-b-4 border-transparent uppercase tracking-wide hover:border-white;
   }
   
