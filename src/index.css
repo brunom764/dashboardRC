@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: 'Nixie One', cursive;
+  font-family: 'Space Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

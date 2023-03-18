@@ -64,7 +64,7 @@ export default function Header() {
 
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
-            <Popover.Button className="headerSubtitle">
+            <Popover.Button className="headerSubtitle outline-none">
               Ver mais
               <ChevronDownIcon className="h-5 w-5 flex-none text-white" aria-hidden="true" />
             </Popover.Button>
@@ -78,8 +78,8 @@ export default function Header() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen 
-              max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+              <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen 
+              max-w-sm overflow-hidden rounded-3xl bg-white opacity-82.5 shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {products.map((item) => (
                     <div
@@ -144,7 +144,7 @@ export default function Header() {
                   {({ open }) => (
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3
-                       pr-3.5 text-base font-semibold leading-7 text-white">
+                       pr-3.5 text-base leading-7 text-white uppercase">
                         Ver mais
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
