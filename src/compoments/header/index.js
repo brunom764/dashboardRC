@@ -78,7 +78,7 @@ export default function Header() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen 
+              <Popover.Panel className="absolute -left-16 top-full z-10 mt-1 
               w-64 overflow-hidden rounded-3xl bg-white opacity-80 shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
                   {products.map((item) => (
