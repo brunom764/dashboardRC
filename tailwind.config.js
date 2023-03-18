@@ -7,6 +7,10 @@ module.exports = {
     extend: {custom: {
       600: '#469C57',
       700: '#1A3C21'
+    }, 
+    spacing: {
+      '108': '27rem',
+      '128': '32rem',
     }},
   },
   plugins: [],
