@@ -12,14 +12,14 @@ const text = {title:'Nossa atuação'}
 export default function Field(){
 
     return(
-        <section className='p-5 pt-10 pb-10'>
-            <h1 className="title text-center pb-5 m-5 text-green-700">{text.title}</h1>
+        <section className='p-5 pt-10 pb-10  md:h-screen'>
+            <h1 className="title text-center pt-10 pb-5 mb-5 text-green-700">{text.title}</h1>
             <div className="flex flex-col md:flex-row justify-around">
             {fields.map((field) => (
                 <div className="p-2 m-2">
-                    <field.icon className="h-32 w-32 text-green-600 mx-auto m-2 animate__animated animate__infinite animate__pulse" aria-hidden="true"/>
+                    <field.icon className="h-40 w-40 text-green-600 mx-auto m-2 animate__animated animate__infinite animate__pulse" aria-hidden="true"/>
                     <h2
-                    className="subtitle text-center m-2">
+                    className="subtitle text-center m-5">
                     {field.name}
                     </h2>
                     <p className="text-sm max-w-xs p-2 text-justify text-center text-gray-500">{field.desc}</p>

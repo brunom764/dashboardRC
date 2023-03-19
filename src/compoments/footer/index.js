@@ -22,7 +22,7 @@ export default function Footer(){
         <footer className="bg-green-700 text-white p-5 flex flex-col md:flex-row justify-around">
             <div>
             <h3 className="text-lg p-5 pb-2">{text.title}</h3>
-            <p className="p-5">{text.mail}</p>
+            <p className="p-5 pt-2">{text.mail}</p>
             <div className="flex">
             {social.map((social) => (
                 <a href={social.href} className='pl-5 p-2'><social.icon className='h-8 w-8 hover:opacity-80'/></a>
