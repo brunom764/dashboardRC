@@ -10,7 +10,7 @@ icon:CpuChipIcon}]
 export default function Field(){
 
     return(
-        <section className='p-5'>
+        <section className='p-5 pt-10 pb-10'>
             <h1 className="title text-center pb-5 m-5 text-green-700">Nossa atuação</h1>
             <div className="flex flex-col md:flex-row justify-around">
             {fields.map((field) => (
