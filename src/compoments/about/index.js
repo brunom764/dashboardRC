@@ -9,11 +9,11 @@ const about = {title: 'Quem somos?',
 }
 
     return(
-        <section className='pt-8 pb-4 bg-gray-100'>
+        <section className='pt-8 pb-3 bg-gray-100'>
             <h1 className='title text-center pb-5 text-green-700'>{about.title}</h1>
-            <h2 className='subtitle text-center text-gray-600 pb-3'>{about.subtitle}</h2>
-            <div className='m-10 flex items-center justify-around flex-col md:flex-row p-5'>
-                <img src={robots} className='max-h-96 w-auto rounded-lg' alt='robots'/>
+            <h2 className='subtitle text-center text-gray-600 p-3'>{about.subtitle}</h2>
+            <div className='m-10 flex items-center justify-around flex-col md:flex-row p-3'>
+                <img src={robots} className='max-h-96 w-auto rounded-lg mb-3' alt='robots'/>
                 <p className='text-lg text-justify text-gray-500 max-w-lg pt-1'>{about.text}</p>
             </div>
         </section>
