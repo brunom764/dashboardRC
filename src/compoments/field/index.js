@@ -7,11 +7,13 @@ const fields = [{name:'Competições', desc:'Nós participamos de diversas compe
 {name:'Desenvolvimento', desc:'Nós projetamos e desenvolvemos a eletrônica, a mecânica e a inteligência dos robôs.', 
 icon:CpuChipIcon}]
 
+const text = {title:'Nossa atuação'}
+
 export default function Field(){
 
     return(
         <section className='p-5 pt-10 pb-10'>
-            <h1 className="title text-center pb-5 m-5 text-green-700">Nossa atuação</h1>
+            <h1 className="title text-center pb-5 m-5 text-green-700">{text.title}</h1>
             <div className="flex flex-col md:flex-row justify-around">
             {fields.map((field) => (
                 <div className="p-2 m-2">

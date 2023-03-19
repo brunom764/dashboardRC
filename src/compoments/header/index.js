@@ -19,6 +19,8 @@ const items = [
     { name: 'Categorias', href: '#'}
 ]
 
+const text = {plus:'Ver mais'}
+
 const products = [
   { name: 'Publicações', description: 'Textos científicos publicados', href: '#', icon: BookOpenIcon},
   { name: 'Patrocinadores', description: 'Empresas parceiras', href: '#', icon: BuildingOfficeIcon},
@@ -65,7 +67,7 @@ export default function Header() {
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <Popover.Button className="headerSubtitle outline-none">
-              Ver mais
+              {text.plus}
               <ChevronDownIcon className="h-5 w-5 flex-none text-white" aria-hidden="true" />
             </Popover.Button>
 
@@ -145,7 +147,7 @@ export default function Header() {
                     <>
                       <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3
                        pr-3.5 text-base leading-7 text-white uppercase">
-                        Ver mais
+                        {text.plus}
                         <ChevronDownIcon
                           className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                           aria-hidden="true"
