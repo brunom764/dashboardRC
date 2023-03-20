@@ -33,9 +33,9 @@ export default function Categories(){
             <h2 className='subtitle text-center text-gray-600 p-2'>{text.subtitle}</h2>
             <div className="flex flex-col md:flex-row justify-around">
                 {cats.map((cat) => (
-                    <AutoplaySlider className='h-96 w-64 m-auto mb-5 mt-5' play={true}
+                    <AutoplaySlider className='h-96 w-64 m-auto mb-7 mt-5' play={true}
                       organicArrows={false}
-                     interval={10000} infinite={true}>
+                     interval={10000} infinite={true}> 
                     <div className="p-2 m-2 absolute b">
                         <cat.icon className="h-16 w-16 text-green-500 mx-auto m-2" aria-hidden="true"/>
                         <h2
