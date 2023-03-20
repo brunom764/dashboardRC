@@ -1,5 +1,4 @@
 import AwesomeSlider from 'react-awesome-slider';
-import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 import ssl from '../../assets/ssl.jpg'
 import seguidorL from '../../assets/seguidorL.jpg'
@@ -24,7 +23,6 @@ img:seguidorL, icon:FaRoute},
 desc:'É uma competição que requer desenvolvimento em visão computacional para detectar informações sobre a situação do jogo; IA para planejar todos os movimentos dos robôs; e robótica para criar agentes que precisam se mover perfeitamente em campo.', 
 img:vss, icon:FaBasketballBall}]
 
-const AutoplaySlider = withAutoplay(AwesomeSlider)
 
 export default function Categories(){
     return (
@@ -33,9 +31,8 @@ export default function Categories(){
             <h2 className='subtitle text-center text-gray-600 p-2'>{text.subtitle}</h2>
             <div className="flex flex-col md:flex-row justify-around">
                 {cats.map((cat) => (
-                    <AutoplaySlider className='h-96 w-64 m-auto mb-7 mt-5' play={true}
-                      organicArrows={false}
-                     interval={10000} infinite={true}> 
+                    <AwesomeSlider className='h-96 w-64 m-auto mb-7 mt-5' 
+                      organicArrows={false}> 
                     <div className="p-2 m-2 absolute b">
                         <cat.icon className="h-16 w-16 text-green-500 mx-auto m-2" aria-hidden="true"/>
                         <h2
@@ -46,7 +43,7 @@ export default function Categories(){
                         <p className="text-sm max-w-xs p-2 text-justify text-center text-gray-400">{cat.desc}</p>
                     </div>
                     <div data-src={cat.img}>1</div>
-                    </AutoplaySlider>
+                    </AwesomeSlider>
                     ))}
             </div>
         </section>
