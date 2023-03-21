@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/dashboardRC/static/css/main.88baf404.css",
-    "main.js": "/dashboardRC/static/js/main.08ce3271.js",
+    "main.css": "/dashboardRC/static/css/main.53b7b32c.css",
+    "main.js": "/dashboardRC/static/js/main.6e031689.js",
     "static/media/robots.jpg": "/dashboardRC/static/media/robots.5054fbce2f0b8d325fd6.jpg",
+    "static/media/doc2.png": "/dashboardRC/static/media/doc2.1161e70296440646cefd.png",
     "static/media/ssl.jpg": "/dashboardRC/static/media/ssl.6fe746d30d0fa23b25a7.jpg",
-    "static/media/2d.jpg": "/dashboardRC/static/media/2d.56b097fce4f52dd3b8e7.jpg",
+    "static/media/doc1.png": "/dashboardRC/static/media/doc1.39d227c00836b76f8fbd.png",
     "static/media/team.jpeg": "/dashboardRC/static/media/team.5341f115546855454bcc.jpeg",
+    "static/media/seguidorL.jpg": "/dashboardRC/static/media/seguidorL.e9a41e34fae338cbdec3.jpg",
     "static/media/vss.jpg": "/dashboardRC/static/media/vss.e031963b6bacda6feb49.jpg",
-    "static/media/seguidorL.jpg": "/dashboardRC/static/media/seguidorL.57095575ecf3ab7dedc7.jpg",
+    "static/media/2d.jpg": "/dashboardRC/static/media/2d.7a14662a2396e6ff15b1.jpg",
     "static/media/logoW.png": "/dashboardRC/static/media/logoW.d565563222b0003ce95e.png",
     "index.html": "/dashboardRC/index.html",
-    "main.88baf404.css.map": "/dashboardRC/static/css/main.88baf404.css.map",
-    "main.08ce3271.js.map": "/dashboardRC/static/js/main.08ce3271.js.map"
+    "main.53b7b32c.css.map": "/dashboardRC/static/css/main.53b7b32c.css.map",
+    "main.6e031689.js.map": "/dashboardRC/static/js/main.6e031689.js.map"
   },
   "entrypoints": [
-    "static/css/main.88baf404.css",
-    "static/js/main.08ce3271.js"
+    "static/css/main.53b7b32c.css",
+    "static/js/main.6e031689.js"
   ]
 }
