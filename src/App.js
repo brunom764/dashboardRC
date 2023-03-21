@@ -5,6 +5,7 @@ import Categories from './compoments/categories';
 import Field from './compoments/field';
 import Footer from './compoments/footer';
 import Header from './compoments/header';
+import TV from './compoments/tv';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Field/>
       <Categories/>
+      <TV/>
       <Footer/>
     </>
   );
