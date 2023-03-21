@@ -42,7 +42,7 @@ export default function Categories(){
                         <h4 className='text-center text-green-100 p-2 pt-1'>{cat.tour}</h4>
                         <p className="text-sm max-w-xs p-2 text-justify text-center text-gray-400">{cat.desc}</p>
                     </div>
-                    <div data-src={cat.img}>1</div>
+                    <div data-src={cat.img} className='absolute'></div>
                     </AwesomeSlider>
                     ))}
             </div>
