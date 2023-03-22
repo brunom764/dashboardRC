@@ -13,10 +13,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - React js
 - Tailwind css
+- React Typical
+- Animate css
+- React-awesome-slider
+- React Player
+
 
 ### 🏁 Features
 
 - [x] Adaptação header para Mobile
+- [ ] Cria form da newsletter
+- [ ] Aplicar testes
 
 #### 🧭 Rodando a aplicação web
 
