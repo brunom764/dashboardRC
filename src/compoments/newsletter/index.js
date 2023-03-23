@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Swal from 'sweetalert2'
 import { FaArrowAltCircleRight } from 'react-icons/fa';
 
 export default function NewsLetter(){
@@ -7,7 +8,18 @@ export default function NewsLetter(){
       
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(`Email submitted: ${email}`);
+        Swal.fire({
+            title: `Olá, seu email, ${email}, foi cadastrado com sucesso. Obrigado!`,
+            icon: "success",
+            iconColor: '#469C57',
+            showClass: {
+              popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+            },
+            confirmButtonColor : '#469C57'
+          })
     };
       
     const handleInputChange = (event) => {
