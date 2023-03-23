@@ -33,14 +33,14 @@ export default function Categories(){
                 {cats.map((cat) => (
                     <AwesomeSlider className='h-96 w-64 m-auto mb-7 mt-5' 
                       organicArrows={false}> 
-                    <div className="p-2 m-2 absolute b">
-                        <cat.icon className="h-16 w-16 text-green-500 mx-auto m-2" aria-hidden="true"/>
+                    <div className="p-2 m-2 absolute flex flex-col justify-center items-center">
+                        <cat.icon className="h-16 w-16 text-green-600 mx-auto m-2" aria-hidden="true"/>
                         <h2
-                        className="text-center text-green-500 m-2 uppercase">
+                        className="text-center text-green-600 m-1.5 uppercase">
                         {cat.title}
                         </h2>
                         <h4 className='text-center text-green-100 p-2 pt-1'>{cat.tour}</h4>
-                        <p className="text-sm max-w-xs p-2 text-justify text-center text-gray-400">{cat.desc}</p>
+                        <p className="text-sm max-w-xs pt-2 text-justify text-center text-gray-400">{cat.desc}</p>
                     </div>
                     <div data-src={cat.img} className='absolute'></div>
                     </AwesomeSlider>
