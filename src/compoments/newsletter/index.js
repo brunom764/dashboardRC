@@ -22,7 +22,7 @@ export default function NewsLetter(){
                 <form onSubmit={handleSubmit} className='flex items-center'>
                     <label>
                         <input type="email" value={email} onChange={handleInputChange} placeholder='EMAIL'
-                        class="border border-gray-400 rounded-lg py-2 px-4 placeholder-gray-400 text-sm" />
+                        className="border border-gray-400 rounded-lg py-2 px-4 placeholder-gray-400 text-sm text-black" />
                     </label>
                     <button type="submit" className='p-2 text-green-600'><FaArrowAltCircleRight className='h-8 w-8'/></button>
                     </form>

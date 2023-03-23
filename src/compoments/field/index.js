@@ -1,10 +1,10 @@
 import {TrophyIcon, MagnifyingGlassIcon, CpuChipIcon}  from '@heroicons/react/24/outline'
 import 'animate.css'
 
-const fields = [{name:'Competições', desc:'Nós participamos de diversas competições, como a RoboCup, a IRONCup e a LARC.',
+const fields = [{key:0, name:'Competições', desc:'Nós participamos de diversas competições, como a RoboCup, a IRONCup e a LARC.',
  icon: TrophyIcon}, 
-{name:'Pesquisa', desc:'Professores e estudantes pesquisando dentro dos problemas da robótica.', icon:MagnifyingGlassIcon},
-{name:'Desenvolvimento', desc:'Nós projetamos e desenvolvemos a eletrônica, a mecânica e a inteligência dos robôs.', 
+{key:1, name:'Pesquisa', desc:'Professores e estudantes pesquisando dentro dos problemas da robótica.', icon:MagnifyingGlassIcon},
+{key:2, name:'Desenvolvimento', desc:'Nós projetamos e desenvolvemos a eletrônica, a mecânica e a inteligência dos robôs.', 
 icon:CpuChipIcon}]
 
 const text = {title:'Nossa atuação'}
@@ -16,7 +16,7 @@ export default function Field(){
             <h1 className="title text-center pt-10 pb-5 mb-5 text-green-700">{text.title}</h1>
             <div className="flex flex-col md:flex-row justify-around">
             {fields.map((field) => (
-                <div className="p-2 m-2">
+                <div className="p-2 m-2" key={field.key}>
                     <field.icon className="h-40 w-40 text-green-600 mx-auto m-2 animate__animated animate__infinite animate__pulse" aria-hidden="true"/>
                     <h2
                     className="subtitle text-center m-5">
