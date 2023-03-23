@@ -13,19 +13,19 @@ import logoW from '../../assets/logoW.png'
 import './header.css'
 
 const items = [
-    { name: 'Sobre', href: '#'},
-    { name: 'Notícias', href: '#'},
-    { name: 'Seletiva', href: '#'},
-    { name: 'Categorias', href: '#'}
+    { key: 0, name: 'Sobre', href: '#'},
+    { key: 1,name: 'Notícias', href: '#'},
+    { key: 2,name: 'Seletiva', href: '#'},
+    { key: 3,name: 'Categorias', href: '#'}
 ]
 
 const text = {plus:'Ver mais'}
 
 const products = [
-  { name: 'Publicações', description: 'Textos científicos publicados', href: '#', icon: BookOpenIcon},
-  { name: 'Patrocinadores', description: 'Empresas parceiras', href: '#', icon: BuildingOfficeIcon},
-  { name: 'Membros', description: 'Colaboradores do projeto', href: '#', icon: UserIcon },
-  { name: 'Contatos', description: 'Fale conosco', href: '#', icon: PhoneIcon },
+  { key: 0, name: 'Publicações', description: 'Textos científicos publicados', href: '#', icon: BookOpenIcon},
+  { key: 1, name: 'Patrocinadores', description: 'Empresas parceiras', href: '#', icon: BuildingOfficeIcon},
+  { key: 2, name: 'Membros', description: 'Colaboradores do projeto', href: '#', icon: UserIcon },
+  { key: 3, name: 'Contatos', description: 'Fale conosco', href: '#', icon: PhoneIcon },
 ]
 
 
@@ -58,7 +58,7 @@ export default function Header() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           {items.map((item) => (
-                <a href={item.href}
+                <a href={item.href} key={item.key}
                 className="headerSubtitle">
                   {item.name}
                 </a>
@@ -85,7 +85,7 @@ export default function Header() {
                 <div className="p-4">
                   {products.map((item) => (
                     <div
-                      key={item.name}
+                      key={item.key}
                       className="group relative flex items-center gap-x-6 rounded-lg p-1 text-xs 
                       leading-6 hover:bg-gray-50"
                     >
@@ -137,7 +137,7 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
               {items.map((item) => (
-                <a href={item.href}
+                <a href={item.href} key={item.key}
                 className="headerSubtitleMobile">
                   {item.name}
                 </a>
@@ -156,7 +156,7 @@ export default function Header() {
                       <Disclosure.Panel className="mt-2 ml-6 space-y-2">
                         {[...products].map((item) => (
                           <Disclosure.Button
-                            key={item.name}
+                            key={item.key}
                             as="a"
                             href={item.href}
                             className="headerSubtitleMobile"
