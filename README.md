@@ -22,7 +22,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### 🏁 Features
 
 - [x] Adaptação header para Mobile
-- [ ] Cria form da newsletter
+- [x] Cria form da newsletter
 - [ ] Aplicar testes
 
 #### 🧭 Rodando a aplicação web
