@@ -7,6 +7,7 @@ import Footer from './compoments/footer';
 import Header from './compoments/header';
 import NewsLetter from './compoments/newsletter';
 import TV from './compoments/tv';
+import Partness from './compoments/partness';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Categories/>
       <TV/>
       <NewsLetter/>
+      <Partness/>
       <Footer/>
     </>
   );
