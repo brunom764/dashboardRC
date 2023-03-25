@@ -18,7 +18,7 @@ export default function Partness(){
     return(
         <section className="py-5 px-2 bg-green-700 border-b border-white">
             <h1 className='text-white font-bold text-center pb-3 uppercase'>Nossos patrocinadores</h1>
-            <div className="flex justify-center flex-col md:flex-row px-2">
+            <div className="flex justify-center flex-col md:flex-row flex-wrap px-2">
             {parts.map((part) => (
                 <img src={part.img} alt={part.name} 
                 className='md:h-14 md:max-w-14 h-16 mx-auto py-2 opacity-80 hover:opacity-100'/>
