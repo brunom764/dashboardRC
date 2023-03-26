@@ -10,7 +10,6 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon} from '@heroicons/react/20/solid'
 import logoW from '../../assets/logoW.png'
-import './header.css'
 
 const items = [
     { key: 0, name: 'Sobre', href: '#'},
