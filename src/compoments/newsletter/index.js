@@ -27,7 +27,7 @@ export default function NewsLetter(){
     };
 
     return (
-        <section className='bg-black text-white flex flex-col items-center py-5 px-2'>
+        <section className='bg-black text-white flex flex-col items-center py-5 px-3'>
             <h1 className='pb-3 uppercase text-green-600 font-bold'>Assine nossa Newsletter!</h1>
             <h4 className='pb-2'>Receba conteúdos  <b className='text-green-600 uppercase'> gratuitos </b> e <b className='text-green-600 uppercase'> exclusivos </b>  sobre tecnologia e róbotica, 
                 além de notícias do RobôCIn.</h4>
