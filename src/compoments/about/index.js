@@ -1,4 +1,3 @@
-import './about.css'
 import robots from '../../assets/robots.jpg'
 
 export default function About(){
