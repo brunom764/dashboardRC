@@ -25,8 +25,8 @@ export default function Footer(){
             <p className="p-5 pt-2">{text.mail}</p>
             <div className="flex">
             {socials.map((social) => (
-                <div key={social.key}>
-                <a href={social.href} className='pl-5 p-2'><social.icon alt={social.href} className='h-8 w-8 hover:opacity-80'/></a>
+                <div key={social.key} className='pl-5 p-2'>
+                <a href={social.href}><social.icon alt={social.href} className='h-8 w-8 hover:opacity-80'/></a>
                 </div>
             ))}
             </div>
