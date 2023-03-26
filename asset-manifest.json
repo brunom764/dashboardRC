@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/dashboardRC/static/css/main.0955533b.css",
-    "main.js": "/dashboardRC/static/js/main.94fd311f.js",
+    "main.css": "/dashboardRC/static/css/main.ef354fa1.css",
+    "main.js": "/dashboardRC/static/js/main.ed4157d6.js",
     "static/media/robots.jpg": "/dashboardRC/static/media/robots.5054fbce2f0b8d325fd6.jpg",
-    "static/media/doc2.png": "/dashboardRC/static/media/doc2.1161e70296440646cefd.png",
     "static/media/ssl.jpg": "/dashboardRC/static/media/ssl.6fe746d30d0fa23b25a7.jpg",
-    "static/media/doc1.png": "/dashboardRC/static/media/doc1.39d227c00836b76f8fbd.png",
     "static/media/team.jpeg": "/dashboardRC/static/media/team.5341f115546855454bcc.jpeg",
     "static/media/seguidorL.jpg": "/dashboardRC/static/media/seguidorL.e9a41e34fae338cbdec3.jpg",
     "static/media/vss.jpg": "/dashboardRC/static/media/vss.e031963b6bacda6feb49.jpg",
@@ -17,11 +15,11 @@
     "static/media/cin.png": "/dashboardRC/static/media/cin.62ca06bfbb78db033ed4.png",
     "static/media/logoW.png": "/dashboardRC/static/media/logoW.d565563222b0003ce95e.png",
     "index.html": "/dashboardRC/index.html",
-    "main.0955533b.css.map": "/dashboardRC/static/css/main.0955533b.css.map",
-    "main.94fd311f.js.map": "/dashboardRC/static/js/main.94fd311f.js.map"
+    "main.ef354fa1.css.map": "/dashboardRC/static/css/main.ef354fa1.css.map",
+    "main.ed4157d6.js.map": "/dashboardRC/static/js/main.ed4157d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.0955533b.css",
-    "static/js/main.94fd311f.js"
+    "static/css/main.ef354fa1.css",
+    "static/js/main.ed4157d6.js"
   ]
 }
