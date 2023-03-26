@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> should match snapshot 1`] = `
+<div>
+  <section
+    class="pt-8 pb-3 bg-gray-100"
+  >
+    <h1
+      class="title text-center pb-5 text-green-700"
+    >
+      Quem somos?
+    </h1>
+    <h2
+      class="subtitle text-center text-gray-600 p-2"
+    >
+      Somos um grupo de pesquisa em robótica do Centro de Informática - UFPE
+    </h2>
+    <div
+      class="m-10 flex justify-around flex-col md:flex-row p-3"
+    >
+      <img
+        alt="robots"
+        class="max-h-96 w-auto rounded-lg mb-3"
+        src="robots.jpg"
+      />
+      <div
+        class="flex flex-col"
+      >
+        <h4
+          class="subtitle py-5"
+        >
+          Centro de informática - UFPE
+        </h4>
+        <p
+          class="text-lg text-justify text-gray-500 max-w-lg pt-1"
+        >
+          RobôCIn é um grupo de pesquisa e desenvolvimento do Centro de Informática da UFPE, que utiliza a robótica para desenvolver soluções. O grupo foi criado em 2015 por 12 estudantes de Engenharia da Computação com ajuda de dois professores. Edna Barros e Hansenclever Bassani. Hoje contamos com 47 estudantes de graduação e pós-graduação e 4 professores estão orientado o time para desenvolver soluções utilizando Inteligência Artificial, Visão Computacional, Mecânica e Eletrônica aplicados na robótica.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;
