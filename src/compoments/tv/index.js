@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
-import doc1 from '../../assets/doc1.png'
-import doc2 from '../../assets/doc2.png'
 
 
 export default function TV() {
-  const videos = [{link:'https://youtu.be/b9h39RmyLJk', title:'Ep. 1 | Mini Doc. RobôCIn', img:doc1},
-  {link:'https://youtu.be/56wVokKmikA', title:'Ep. 2 | Mini Doc. RobôCIn', img:doc2},];
+  const videos = [{link:'https://youtu.be/b9h39RmyLJk', title:'Ep. 1 | Mini Doc. RobôCIn'},
+  {link:'https://youtu.be/56wVokKmikA', title:'Ep. 2 | Mini Doc. RobôCIn'}];
 
   const text = {title:'Tv robôCIn', desc:'Nos acompanhe pelo YouTube e conheça mais do nosso projeto'}
 
