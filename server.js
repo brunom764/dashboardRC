@@ -5,6 +5,18 @@ app.use(express.json());
 
 let emails = [];
 
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
+
+
+app.get('/dashboardRC', (req, res) => {
+  res.send('Bem-vindo à dashboard do RobôCIn!');
+});
+
+
 app.get('/emails', (req, res) => {
   res.json(emails);
 });
@@ -19,7 +31,7 @@ app.post('/emails', (req, res) => {
   }
 });
 
-const PORT = 3000;
+const PORT = 4000;
 
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);

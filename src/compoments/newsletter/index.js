@@ -10,7 +10,7 @@ export default function NewsLetter(){
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('/newsletter', { email });
+      const response = await axios.post('http://localhost:4000/emails', { email });
       console.log(response.data);
       Swal.fire({
         title: `Olá, seu email, ${email}, foi cadastrado com sucesso. Obrigado!`,
@@ -39,6 +39,7 @@ export default function NewsLetter(){
         confirmButtonColor: '#ff5252'
       });
     }
+    setEmail('');
   };
 
       
