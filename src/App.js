@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import About from './compoments/about';
 import Banner from './compoments/banner';
@@ -8,9 +9,24 @@ import Header from './compoments/header';
 import NewsLetter from './compoments/newsletter';
 import TV from './compoments/tv';
 import Partness from './compoments/partness';
+import LoadingScreen from './compoments/loading';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
+    <>
+      {isLoading ? (
+        <LoadingScreen />
+      ) : (
     <>
       <Header/>
       <Banner/>
@@ -22,7 +38,8 @@ function App() {
       <Partness/>
       <Footer/>
     </>
-  );
+    )}
+  </>);
 }
 
 export default App;
