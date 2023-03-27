@@ -1,26 +1,46 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2'
 import { FaArrowAltCircleRight } from 'react-icons/fa';
+import axios from 'axios';
 
 export default function NewsLetter(){
 
     const [email, setEmail] = useState('');
-      
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        Swal.fire({
-            title: `Olá, seu email, ${email}, foi cadastrado com sucesso. Obrigado!`,
-            icon: "success",
-            iconColor: '#469C57',
-            showClass: {
-              popup: 'animate__animated animate__fadeInDown'
-            },
-            hideClass: {
-              popup: 'animate__animated animate__fadeOutUp'
-            },
-            confirmButtonColor : '#469C57'
-          })
-    };
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      const response = await axios.post('/newsletter', { email });
+      console.log(response.data);
+      Swal.fire({
+        title: `Olá, seu email, ${email}, foi cadastrado com sucesso. Obrigado!`,
+        icon: 'success',
+        iconColor: '#469C57',
+        showClass: {
+          popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp'
+        },
+        confirmButtonColor: '#469C57'
+      });
+    } catch (err) {
+      console.error(err);
+      Swal.fire({
+        title: `Erro ao cadastrar email ${email}`,
+        icon: 'error',
+        iconColor: '#ff5252',
+        showClass: {
+          popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp'
+        },
+        confirmButtonColor: '#ff5252'
+      });
+    }
+  };
+
       
     const handleInputChange = (event) => {
         setEmail(event.target.value);
