@@ -19,7 +19,7 @@ exports[`<Categories /> should match snapshot 1`] = `
       class="flex flex-col md:flex-row justify-around"
     >
       <div
-        class="awssld h-96 w-64 m-auto mb-7 mt-5"
+        class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
       >
         <div
           class="awssld__wrapper"
@@ -62,9 +62,9 @@ exports[`<Categories /> should match snapshot 1`] = `
                     ROBOCUP | LARC
                   </h4>
                   <p
-                    class="text-sm max-w-xs pt-2 text-justify text-center text-gray-400"
+                    class="text-sm max-w-xs pt-1.5 text-justify text-center text-gray-400"
                   >
-                    Uma competição que requer o desenvolvimento de várias áreas. Nós desenvolvemos o modelo mecânico, os sistemas eletrônicos e de comunicação e a inteligência artifical dos robôs. Um jogo de SSL ocorre entre duas equipes de seis robôs cada.
+                    Uma competição que requer o desenvolvimento de várias áreas, como, o modelo mecânico, os sistemas eletrônicos e de comunicação e a inteligência artifical dos robôs. A partida ocorre entre 2 equipes de 6 robôs cada.
                   </p>
                 </div>
               </div>
@@ -103,7 +103,7 @@ exports[`<Categories /> should match snapshot 1`] = `
         </nav>
       </div>
       <div
-        class="awssld h-96 w-64 m-auto mb-7 mt-5"
+        class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
       >
         <div
           class="awssld__wrapper"
@@ -146,7 +146,7 @@ exports[`<Categories /> should match snapshot 1`] = `
                     IRON CUP
                   </h4>
                   <p
-                    class="text-sm max-w-xs pt-2 text-justify text-center text-gray-400"
+                    class="text-sm max-w-xs pt-1.5 text-justify text-center text-gray-400"
                   >
                     É uma categoria que tem o objetivo de desenvolver robôs autônomos que percorrem um percurso no menor tempo possível. O robô possui sensor de reflectância para poder identificar o trajeto delimitado por uma fita.
                   </p>
@@ -187,7 +187,7 @@ exports[`<Categories /> should match snapshot 1`] = `
         </nav>
       </div>
       <div
-        class="awssld h-96 w-64 m-auto mb-7 mt-5"
+        class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
       >
         <div
           class="awssld__wrapper"
@@ -230,9 +230,9 @@ exports[`<Categories /> should match snapshot 1`] = `
                     ROBOCUP | LARC | IRON CUP
                   </h4>
                   <p
-                    class="text-sm max-w-xs pt-2 text-justify text-center text-gray-400"
+                    class="text-sm max-w-xs pt-1.5 text-justify text-center text-gray-400"
                   >
-                    Duas equipes de onze agentes autônomos jogam futebol em um estádio virtual 2D representado por um servidor central, chamado SoccerServer. Este servidor sabe tudo sobre o jogo, ou seja, a posição atual de todos os jogadores e a bola, a física e assim por diante.
+                    Duas equipes de onze agentes autônomos jogam futebol em um estádio virtual 2D representado por um servidor central, o qual sabe tudo sobre o jogo, como, a posição atual de todos os jogadores e da bola.
                   </p>
                 </div>
               </div>
@@ -271,7 +271,7 @@ exports[`<Categories /> should match snapshot 1`] = `
         </nav>
       </div>
       <div
-        class="awssld h-96 w-64 m-auto mb-7 mt-5"
+        class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
       >
         <div
           class="awssld__wrapper"
@@ -314,9 +314,9 @@ exports[`<Categories /> should match snapshot 1`] = `
                     LARC | IRON CUP
                   </h4>
                   <p
-                    class="text-sm max-w-xs pt-2 text-justify text-center text-gray-400"
+                    class="text-sm max-w-xs pt-1.5 text-justify text-center text-gray-400"
                   >
-                    É uma competição que requer desenvolvimento em visão computacional para detectar informações sobre a situação do jogo; IA para planejar todos os movimentos dos robôs; e robótica para criar agentes que precisam se mover perfeitamente em campo.
+                    É uma competição que requer desenvolvimento em visão computacional para detectar informações sobre a situação do jogo, IA para planejar os movimentos dos robôs, e robótica para criar agentes que se movem em campo.
                   </p>
                 </div>
               </div>

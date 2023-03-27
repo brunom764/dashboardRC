@@ -1,14 +1,31 @@
-import { render } from "@testing-library/react"
+import React from 'react';
+import '@testing-library/jest-dom';
+import { render, waitFor, screen , act} from '@testing-library/react';
+import TV from './index';
 
-import TV from "./index"
 
-describe("<TV/>", () => {
-  it("should match snapshot", () => {
-    const { container } = render(<TV />)
+test('renders TV component with videos', async () => {
+  render(<TV />);
+  await waitFor(() => {
+    act(() => {
+      expect(screen.getByText('Ep. 1 | Mini Doc. RobôCIn')).toBeInTheDocument();
+    });
+  });
+  await waitFor(() => {
+    act(() => {
+      expect(screen.getByText('Ep. 2 | Mini Doc. RobôCIn')).toBeInTheDocument();
+    });
+  });
+});
 
-    expect(container).toMatchSnapshot()
-  })
-})
+
+
+
+
+
+
+
+
 
 
 
