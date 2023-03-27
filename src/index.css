@@ -31,8 +31,16 @@ code {
   font-weight: bold;
 }
 
+.titleMain{
+  @apply text-center py-5 text-green-700
+}
+
 .subtitle{
   font-size: 1.25rem;
+}
+
+.subtitleMain{
+  @apply text-center text-gray-600 py-2 px-1
 }
 
 ::-webkit-scrollbar {

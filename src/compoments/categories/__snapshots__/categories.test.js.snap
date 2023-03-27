@@ -3,15 +3,15 @@
 exports[`<Categories /> should match snapshot 1`] = `
 <div>
   <section
-    class="p-5 pt-5 pb-10 bg-gray-100 md:h-screen"
+    class="px-5 pt-1.5 pb-10 bg-gray-100 md:h-screen"
   >
     <h1
-      class="title text-center pb-2 text-green-700"
+      class="title titleMain"
     >
       Categorias
     </h1>
     <h2
-      class="subtitle text-center text-gray-600 p-2"
+      class="subtitle subtitleMain"
     >
       Nos dividimos em sub-equipes que cooperam para administrar e desenvolver várias categorias diferentes.
     </h2>

@@ -6,12 +6,12 @@ exports[`<About /> should match snapshot 1`] = `
     class="pt-8 pb-3 bg-gray-100"
   >
     <h1
-      class="title text-center pb-5 text-green-700"
+      class="title titleMain"
     >
       Quem somos?
     </h1>
     <h2
-      class="subtitle text-center text-gray-600 p-2"
+      class="subtitle subtitleMain"
     >
       Somos um grupo de pesquisa em robótica do Centro de Informática - UFPE
     </h2>

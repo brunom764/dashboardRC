@@ -13,7 +13,7 @@ export default function Field(){
 
     return(
         <section className='p-5 pt-10 pb-10  md:h-screen'>
-            <h1 className="title text-center pt-10 pb-5 mb-5 text-green-700">{text.title}</h1>
+            <h1 className="title titleMain">{text.title}</h1>
             <div className="flex flex-col md:flex-row justify-around">
             {fields.map((field) => (
                 <div className="p-2 mx-2 my-4 md:shadow-lg" key={field.key}>
