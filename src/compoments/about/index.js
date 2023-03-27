@@ -10,8 +10,8 @@ const about = {title: 'Quem somos?',
 
     return(
         <section className='pt-8 pb-3 bg-gray-100'>
-            <h1 className='title text-center pb-5 text-green-700'>{about.title}</h1>
-            <h2 className='subtitle text-center text-gray-600 p-2'>{about.subtitle}</h2>
+            <h1 className='title titleMain'>{about.title}</h1>
+            <h2 className='subtitle subtitleMain'>{about.subtitle}</h2>
             <div className='m-10 flex justify-around flex-col md:flex-row p-3'>
                 <img src={robots} className='max-h-96 w-auto rounded-lg mb-3' alt='robots'/>
                 <div className='flex flex-col'>

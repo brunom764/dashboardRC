@@ -9,10 +9,10 @@ export default function TV() {
   const text = {title:'Tv robôCIn', desc:'Nos acompanhe pelo YouTube e conheça mais do nosso projeto'}
 
   return (
-    <section className='px-5 pt-15 pb-10'>
-            <h1 className="title text-center pt-5 pb-1 text-green-700">{text.title}</h1>
-            <h4 className='text-center text-gray-600 p-4'>{text.desc}</h4>
-            <div className="flex flex-col md:flex-row justify-around p-2">
+    <section className='px-5 py-10 md:h-screen'>
+            <h1 className="title titleMain">{text.title}</h1>
+            <h4 className='subtitle subtitleMain'>{text.desc}</h4>
+            <div className="flex flex-col md:flex-row justify-around px-2 py-4">
                 {videos.map((video) => (
                     <div key={video.link} className='mb-5 mt-5 pb-2 md:w-1/3 shadow-xl'>
                     <ReactPlayer

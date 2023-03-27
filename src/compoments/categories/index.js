@@ -26,9 +26,9 @@ img:vss, icon:FaBasketballBall}]
 
 export default function Categories(){
     return (
-        <section className='p-5 pt-5 pb-10 bg-gray-100 md:h-screen'>
-            <h1 className='title text-center pb-2 text-green-700'>{text.title}</h1>
-            <h2 className='subtitle text-center text-gray-600 p-2'>{text.subtitle}</h2>
+        <section className='px-5 pt-1.5 pb-10 bg-gray-100 md:h-screen'>
+            <h1 className='title titleMain'>{text.title}</h1>
+            <h2 className='subtitle subtitleMain'>{text.subtitle}</h2>
             <div className="flex flex-col md:flex-row justify-around">
                 {cats.map((cat) => (
                     <AwesomeSlider className='h-96 w-32 m-auto md:mx-5 mb-7 mt-5'  key={cat.key}
