@@ -12,6 +12,7 @@ Website para grupo de pesquisa em robótica
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - React js
+- Jest
 - Tailwind css
 - React Typical
 - Animate css
