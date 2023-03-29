@@ -3,7 +3,7 @@
 exports[`<Categories /> should match snapshot 1`] = `
 <div>
   <section
-    class="px-5 pt-1.5 pb-10 bg-gray-100 md:h-screen"
+    class="px-5 pt-1.5 pb-10 bg-gray-100 lg:h-screen"
   >
     <h1
       class="title titleMain"
@@ -16,7 +16,7 @@ exports[`<Categories /> should match snapshot 1`] = `
       Nos dividimos em sub-equipes que cooperam para administrar e desenvolver várias categorias diferentes.
     </h2>
     <div
-      class="flex flex-col md:flex-row justify-around"
+      class="flex flex-col lg:flex-row justify-around mx-2"
     >
       <div
         class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
