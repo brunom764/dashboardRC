@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Swal from 'sweetalert2'
-import { FaArrowAltCircleRight } from 'react-icons/fa';
 import axios from 'axios';
+import { FaArrowAltCircleRight } from 'react-icons/fa';
+
 
 export default function NewsLetter(){
 
-    const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('');
 
   const handleSubmit = async (event) => {
     event.preventDefault();

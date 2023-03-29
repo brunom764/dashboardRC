@@ -11,7 +11,7 @@ exports[`<Field /> should match snapshot 1`] = `
       Nossa atuação
     </h1>
     <div
-      class="flex flex-col md:flex-row justify-around"
+      class="flex flex-col md:flex-row justify-around md-mt-5"
     >
       <div
         class="p-2 mx-2 my-4 md:shadow-lg"

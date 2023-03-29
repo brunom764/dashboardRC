@@ -14,7 +14,7 @@ export default function Field(){
     return(
         <section className='p-5 pt-10 pb-10  md:h-screen'>
             <h1 className="title titleMain">{text.title}</h1>
-            <div className="flex flex-col md:flex-row justify-around">
+            <div className="flex flex-col md:flex-row justify-around md-mt-5">
             {fields.map((field) => (
                 <div className="p-2 mx-2 my-4 md:shadow-lg" key={field.key}>
                     <field.icon className="h-40 w-40 text-green-600 mx-auto m-2 animate__animated animate__infinite animate__pulse" aria-hidden="true"/>
