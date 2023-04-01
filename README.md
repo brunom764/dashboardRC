@@ -25,8 +25,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### 🏁 Features
 
 - [x] Adaptação header para Mobile
-- [x] Cria form da newsletter
-- [ ] Aplicar testes
+- [x] Criar form da newsletter
+- [x] Criar seervidor, api e banco de dados para guardar os email cadastrados na newsletter
+- [x] Aplicar testes
 
 #### 🧭 Rodando a aplicação web
 
