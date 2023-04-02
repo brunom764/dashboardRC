@@ -13,11 +13,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - React js
 - Node js
-- Jest
 - Express
+- Jest
 - Tailwind css
-- React Typical
 - Animate css
+- React Typical
 - React-awesome-slider
 - React Player
 
