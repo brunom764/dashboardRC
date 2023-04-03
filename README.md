@@ -4,7 +4,7 @@ Website para grupo de pesquisa em robótica
 
 --------  EM CONSTRUÇÃO  --------
 
-#### Visualize aqui: 
+#### Visualize aqui: https://brunom764.github.io/dashboardRC/
 
 
 ### 🛠 Tecnologias
