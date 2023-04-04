@@ -16,14 +16,14 @@ export default function Team(){
         <h1 className="title titleMain">{text.title}</h1>
         <div className='flex flex-col md:flex-row justify-around xl:mt-3 p-2'>
             {members.map((member) => (
-                <div key={member.key} className='p-2 flex flex-col items-center border m-2 rounded-lg shadow-lg shadow-green-500'>
+                <div key={member.key} className='p-2 flex flex-col items-center border m-2 rounded-lg shadow-md shadow-green-500 my-5'>
                     <img src={member.img} alt={member.name} className='h-32 w-32'/>
                     <h3 className="text-center text-green-600 m-1.5 uppercase">{member.name}</h3>
                     <p className="text-sm max-w-xs p-1.5 text-justify text-center text-gray-400">{member.message}</p>
                 </div>
             ))}
         </div>
-        <h2 className="subtitle subtitleMain mt-5">{text.subtitle}</h2>
+        <a href='https://robocin.com.br/seletiva.html'><h2 className="subtitle subtitleMain mt-5 border-b-2 border-green-600">{text.subtitle}</h2></a>
         </section>
     );
 };
