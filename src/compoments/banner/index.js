@@ -4,7 +4,7 @@ import './banner.css'
 
 export default function Banner() {
     return(
-            <section className='banner bg-cover flex justify-center'>
+            <section className='banner bg-cover flex justify-center bg-center xl:bg-top'>
                     <div className='flex flex-col items-center justify-around'>
                     <Typical 
                     steps={['Campeão mundial em SSL', 10000,
