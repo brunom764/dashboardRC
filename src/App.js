@@ -34,8 +34,8 @@ function App() {
       <About/>
       <Field/>
       <Categories/>
-      <Team/>
       <TV/>
+      <Team/>
       <NewsLetter/>
       <Partness/>
       <Footer/>
