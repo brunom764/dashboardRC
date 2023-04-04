@@ -10,6 +10,7 @@ import NewsLetter from './compoments/newsletter';
 import TV from './compoments/tv';
 import Partness from './compoments/partness';
 import LoadingScreen from './compoments/loading';
+import Team from './compoments/team';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,6 +34,7 @@ function App() {
       <About/>
       <Field/>
       <Categories/>
+      <Team/>
       <TV/>
       <NewsLetter/>
       <Partness/>
