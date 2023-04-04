@@ -112,9 +112,9 @@ export default function Header() {
             <a href="#home" className="-m-1.5 p-1.5">
               <span className="sr-only">RoboCin</span>
               <img
-                className="h-8 w-auto"
+                className="h-8 w-auto hidden"
                 src={logoW}
-                alt=""
+                alt="logo"
               />
             </a>
             <button
