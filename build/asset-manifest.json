@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dashboardRC/static/css/main.3d4dc9e5.css",
-    "main.js": "/dashboardRC/static/js/main.dafb9df4.js",
+    "main.css": "/dashboardRC/static/css/main.8a0c7092.css",
+    "main.js": "/dashboardRC/static/js/main.45f4b91e.js",
     "static/media/robots.jpg": "/dashboardRC/static/media/robots.5054fbce2f0b8d325fd6.jpg",
     "static/media/ssl.jpg": "/dashboardRC/static/media/ssl.6fe746d30d0fa23b25a7.jpg",
     "static/media/team.jpeg": "/dashboardRC/static/media/team.5341f115546855454bcc.jpeg",
@@ -14,12 +14,13 @@
     "static/media/microsoft.png": "/dashboardRC/static/media/microsoft.84bfdabdfe64f31d53fa.png",
     "static/media/cin.png": "/dashboardRC/static/media/cin.62ca06bfbb78db033ed4.png",
     "static/media/logoW.png": "/dashboardRC/static/media/logoW.d565563222b0003ce95e.png",
+    "static/media/user.png": "/dashboardRC/static/media/user.d22b270f9a1cd3c8bdb0.png",
     "index.html": "/dashboardRC/index.html",
-    "main.3d4dc9e5.css.map": "/dashboardRC/static/css/main.3d4dc9e5.css.map",
-    "main.dafb9df4.js.map": "/dashboardRC/static/js/main.dafb9df4.js.map"
+    "main.8a0c7092.css.map": "/dashboardRC/static/css/main.8a0c7092.css.map",
+    "main.45f4b91e.js.map": "/dashboardRC/static/js/main.45f4b91e.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d4dc9e5.css",
-    "static/js/main.dafb9df4.js"
+    "static/css/main.8a0c7092.css",
+    "static/js/main.45f4b91e.js"
   ]
 }

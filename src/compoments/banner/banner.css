@@ -5,5 +5,5 @@
         rgba(70, 156, 87, 0.5),
         rgba(70, 156, 87, 0.5)
       ), url('../../assets/team.jpeg');
-    height: calc(100vh - 4.45rem)
+    height: 100vh
 }
