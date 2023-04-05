@@ -3,7 +3,7 @@
 exports[`<Banner /> should match snapshot 1`] = `
 <div>
   <section
-    class="banner bg-cover flex justify-center"
+    class="banner bg-cover flex justify-center bg-center xl:bg-top"
   >
     <div
       class="flex flex-col items-center justify-around"
