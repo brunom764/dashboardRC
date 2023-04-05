@@ -3,7 +3,7 @@
 exports[`<Header /> should match snapshot 1`] = `
 <div>
   <header
-    class="bg-green-700 shadow-lg"
+    class="bg-green-700 opacity-80 fixed top-0 left-0 right-0 z-50"
   >
     <nav
       aria-label="Global"
