@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -33,10 +33,10 @@ function App() {
       <Banner/>
       <About/>
       <Field/>
+      <NewsLetter/>
       <Categories/>
       <TV/>
       <Team/>
-      <NewsLetter/>
       <Partness/>
       <Footer/>
     </>
