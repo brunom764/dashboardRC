@@ -23,7 +23,7 @@ export default function Field(){
                     className="subtitle text-center m-5">
                     {field.name}
                     </h2>
-                    <p className="text-sm max-w-xs p-2 text-justify text-center text-gray-500">{field.desc}</p>
+                    <p className="text-sm max-w-xs p-2 text-justify text-center mx-auto text-gray-500">{field.desc}</p>
                 </div>
           ))}
           </div>
