@@ -13,108 +13,129 @@ exports[`<LoadingScreen /> should match snapshot 1`] = `
     <div
       class="flex flex-col md:flex-row justify-around xl:mt-3 p-2"
     >
-      <div
-        class="bg-white px-2 py-5 flex flex-col items-center m-2 rounded-lg my-3 border shadow-lg hover:shadow-xl"
+      <figure
+        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r"
       >
-        <div
-          class="flex items-center justify-around"
+        <blockquote
+          class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
+        >
+          <h3
+            class="text-lg font-semibold text-gray-900 uppercase"
+          >
+            aplicar o conhecimento adquirido na faculdade em projetos reais
+          </h3>
+          <p
+            class="my-4"
+          >
+            "
+            Ser membro do RobôCIn tem me permitido aplicar todo o conhecimento adquirido na faculdade em projetos reais, o que tem sido um grande diferencial na minha formação e um grande passo para minha carreira.
+            "
+          </p>
+        </blockquote>
+        <figcaption
+          class="flex items-center justify-center space-x-3"
         >
           <img
-            alt="João"
-            class="h-32 w-32 mr-2"
-            src="user.png"
+            alt="Ana Júlia"
+            class="rounded-full w-9 h-9"
+            src="avatar1.png"
           />
           <div
-            class="flex flex-col ml-2"
+            class="space-y-0.5 font-medium text-left"
           >
-            <h3
-              class="text-center text-green-600 m-1.5 uppercase"
+            <div>
+              Ana Júlia
+            </div>
+            <div
+              class="text-sm text-gray-500 dark:text-gray-400"
             >
-              João
-            </h3>
-            <h6
-              class="text-center text-green-500 mb-1.5"
-            >
-              Desenvolvimento
-            </h6>
+              Desenvolvedora VSS
+            </div>
           </div>
-        </div>
-        <p
-          class="text-sm max-w-xs p-1.5 text-justify text-center text-gray-400"
-        >
-          "
-          Ser membro do RobôCIn tem me permitido aplicar todo o conhecimento adquirido na faculdade em projetos reais, o que tem sido um grande diferencial na minha formação e um grande passo para minha carreira.
-           "
-        </p>
-      </div>
-      <div
-        class="bg-white px-2 py-5 flex flex-col items-center m-2 rounded-lg my-3 border shadow-lg hover:shadow-xl"
+        </figcaption>
+      </figure>
+      <figure
+        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r"
       >
-        <div
-          class="flex items-center justify-around"
+        <blockquote
+          class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
+        >
+          <h3
+            class="text-lg font-semibold text-gray-900 uppercase"
+          >
+            conhecer pessoas de diversas áreas e culturas
+          </h3>
+          <p
+            class="my-4"
+          >
+            "
+            O RobôCIn me proporcionou não apenas a chance de trabalhar em projetos empolgantes, mas também de conhecer pessoas de diversas áreas e culturas, o que tem sido uma experiência enriquecedora para mim.
+            "
+          </p>
+        </blockquote>
+        <figcaption
+          class="flex items-center justify-center space-x-3"
         >
           <img
-            alt="Maria"
-            class="h-32 w-32 mr-2"
-            src="user.png"
+            alt="Geydson Renan"
+            class="rounded-full w-9 h-9"
+            src="avatar2.png"
           />
           <div
-            class="flex flex-col ml-2"
+            class="space-y-0.5 font-medium text-left"
           >
-            <h3
-              class="text-center text-green-600 m-1.5 uppercase"
+            <div>
+              Geydson Renan
+            </div>
+            <div
+              class="text-sm text-gray-500 dark:text-gray-400"
             >
-              Maria
-            </h3>
-            <h6
-              class="text-center text-green-500 mb-1.5"
-            >
-              Administração
-            </h6>
+              Simulação 2D
+            </div>
           </div>
-        </div>
-        <p
-          class="text-sm max-w-xs p-1.5 text-justify text-center text-gray-400"
-        >
-          "
-          O RobôCIn me proporcionou não apenas a chance de trabalhar em projetos empolgantes, mas também de conhecer pessoas de diversas áreas e culturas, o que tem sido uma experiência enriquecedora para mim.
-           "
-        </p>
-      </div>
-      <div
-        class="bg-white px-2 py-5 flex flex-col items-center m-2 rounded-lg my-3 border shadow-lg hover:shadow-xl"
+        </figcaption>
+      </figure>
+      <figure
+        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r"
       >
-        <div
-          class="flex items-center justify-around"
+        <blockquote
+          class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
+        >
+          <h3
+            class="text-lg font-semibold text-gray-900 uppercase"
+          >
+            oportunidade de desenvolver habilidades
+          </h3>
+          <p
+            class="my-4"
+          >
+            "
+            Fazer parte do RobôCIn tem sido uma experiência incrível, não apenas por ter a oportunidade de desenvolver habilidades, mas também por ter a chance de trabalhar com um grupo de pessoas incríveis e dedicadas.
+            "
+          </p>
+        </blockquote>
+        <figcaption
+          class="flex items-center justify-center space-x-3"
         >
           <img
-            alt="Pedro"
-            class="h-32 w-32 mr-2"
-            src="user.png"
+            alt="Maria Beatriz"
+            class="rounded-full w-9 h-9"
+            src="avatar3.png"
           />
           <div
-            class="flex flex-col ml-2"
+            class="space-y-0.5 font-medium text-left"
           >
-            <h3
-              class="text-center text-green-600 m-1.5 uppercase"
-            >
-              Pedro
-            </h3>
-            <h6
-              class="text-center text-green-500 mb-1.5"
+            <div>
+              Maria Beatriz
+            </div>
+            <div
+              class="text-sm text-gray-500 dark:text-gray-400"
             >
               Comunicação
-            </h6>
+            </div>
           </div>
-        </div>
-        <p
-          class="text-sm max-w-xs p-1.5 text-justify text-center text-gray-400"
-        >
-          "
-          Fazer parte do RobôCIn tem sido uma experiência incrível, não apenas por ter a oportunidade de desenvolver habilidades, mas também por ter a chance de trabalhar com um grupo de pessoas incríveis e dedicadas.
-           "
-        </p>
-      </div>
+        </figcaption>
+      </figure>
     </div>
     <a
       href="https://robocin.com.br/seletiva.html"
