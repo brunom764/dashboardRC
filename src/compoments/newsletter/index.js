@@ -49,14 +49,14 @@ export default function NewsLetter(){
     };
 
     return (
-        <section className='bg-black text-white flex flex-col items-center py-5 px-3 lg:w-3/4 lg:mx-auto lg:my-8 lg:opacity-90'>
+        <section className='bg-gray-100 text-gray flex flex-col items-center py-5 px-3 mx-4 my-8 rounded-lg lg:w-3/4 lg:mx-auto lg:opacity-90'>
             <h1 className='pb-3 uppercase text-green-600 font-bold'>Assine nossa Newsletter!</h1>
             <h4 className='pb-2 text-center'>Receba conteúdos  <b className='text-green-600 uppercase'> gratuitos </b> e <b className='text-green-600 uppercase'> exclusivos </b>  sobre tecnologia e róbotica, 
                 além de notícias do RobôCIn.</h4>
                 <form onSubmit={handleSubmit} className='flex items-center'>
                     <label>
                         <input type="email" value={email} onChange={handleInputChange} placeholder='EMAIL'
-                        className="border border-gray-400 rounded-lg py-2 px-4 placeholder-gray-400 text-sm text-black" />
+                        className="rounded-lg py-2 px-4 placeholder-gray-400 text-sm text-black" />
                     </label>
                     <button type="submit" className='p-2 text-green-600'><FaArrowAltCircleRight className='h-8 w-8'/></button>
                     </form>
