@@ -31,7 +31,7 @@ export default function Categories(){
             <h2 className='subtitle subtitleMain'>{text.subtitle}</h2>
             <div className="flex flex-col lg:flex-row justify-around mx-2">
                 {cats.map((cat) => (
-                    <AwesomeSlider className='h-96 w-32 m-auto md:mx-5 mb-7 mt-5'  key={cat.key}
+                    <AwesomeSlider className='h-96 w-32 m-auto lg:mx-5 mb-7 mt-5'  key={cat.key}
                       organicArrows={false}> 
                     <div className="p-2 m-2 absolute flex flex-col justify-center items-center">
                         <cat.icon className="h-16 w-16 text-green-600 mx-auto m-2" aria-hidden="true"/>

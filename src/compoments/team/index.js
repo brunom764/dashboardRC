@@ -17,9 +17,9 @@ export default function Team(){
     ];
 
     return (
-        <section className='p-5 pt-10 pb-10  xl:h-screen bg-gray-100'>
+        <section className='p-5 pt-10 pb-10  lg:h-screen bg-gray-100'>
         <h1 className="title titleMain">{text.title}</h1>
-        <div className='flex flex-col md:flex-row justify-around xl:mt-3 p-2'>
+        <div className='flex flex-col lg:flex-row justify-around lg:mt-3 p-2'>
             {members.map((member) => (
                 <figure key={member.key} className="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r">
                     <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8">
