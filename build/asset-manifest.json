@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dashboardRC/static/css/main.a7046310.css",
-    "main.js": "/dashboardRC/static/js/main.235a539f.js",
+    "main.css": "/dashboardRC/static/css/main.60d46079.css",
+    "main.js": "/dashboardRC/static/js/main.42f88a40.js",
     "static/media/robots.jpg": "/dashboardRC/static/media/robots.5054fbce2f0b8d325fd6.jpg",
     "static/media/ssl.jpg": "/dashboardRC/static/media/ssl.6fe746d30d0fa23b25a7.jpg",
     "static/media/team.jpeg": "/dashboardRC/static/media/team.5341f115546855454bcc.jpeg",
@@ -11,16 +11,18 @@
     "static/media/cesar.png": "/dashboardRC/static/media/cesar.6a95870b986a2f1c4a6e.png",
     "static/media/2d.jpg": "/dashboardRC/static/media/2d.7a14662a2396e6ff15b1.jpg",
     "static/media/moura.png": "/dashboardRC/static/media/moura.d1b0d046c06727b3dc69.png",
+    "static/media/avatar1.png": "/dashboardRC/static/media/avatar1.955b3911dd723ec17b4b.png",
+    "static/media/avatar2.png": "/dashboardRC/static/media/avatar2.9e39c4f548ec419d0769.png",
     "static/media/microsoft.png": "/dashboardRC/static/media/microsoft.84bfdabdfe64f31d53fa.png",
     "static/media/cin.png": "/dashboardRC/static/media/cin.62ca06bfbb78db033ed4.png",
+    "static/media/avatar3.png": "/dashboardRC/static/media/avatar3.b9a14fef24cea341eed0.png",
     "static/media/logoW.png": "/dashboardRC/static/media/logoW.d565563222b0003ce95e.png",
-    "static/media/user.png": "/dashboardRC/static/media/user.d22b270f9a1cd3c8bdb0.png",
     "index.html": "/dashboardRC/index.html",
-    "main.a7046310.css.map": "/dashboardRC/static/css/main.a7046310.css.map",
-    "main.235a539f.js.map": "/dashboardRC/static/js/main.235a539f.js.map"
+    "main.60d46079.css.map": "/dashboardRC/static/css/main.60d46079.css.map",
+    "main.42f88a40.js.map": "/dashboardRC/static/js/main.42f88a40.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7046310.css",
-    "static/js/main.235a539f.js"
+    "static/css/main.60d46079.css",
+    "static/js/main.42f88a40.js"
   ]
 }
