@@ -13,23 +13,23 @@ exports[`<About /> should match snapshot 1`] = `
     <h2
       class="subtitle subtitleMain"
     >
-      Somos um grupo de pesquisa em robótica do Centro de Informática - UFPE
+      Somos um grupo de pesquisa em robótica do CIn - UFPE
     </h2>
     <div
       class="m-10 flex justify-around items-center flex-col lg:flex-row p-2"
     >
       <img
         alt="robots"
-        class="max-h-80 max-w-auto rounded-lg mb-3"
+        class="h-96 w-auto lg:h-80  rounded-lg mb-3 shadow-lg shadow-green-200 xl:transform xl:scale-80 xl:-rotate-6 hover:-rotate-0"
         src="robots.jpg"
       />
       <div
         class="flex flex-col mx-2"
       >
         <h4
-          class="subtitle py-4"
+          class="subtitle py-4 text-center uppercase"
         >
-          Centro de informática - UFPE
+          Nossa história
         </h4>
         <p
           class="text-lg text-justify text-gray-500 max-w-lg pt-1"
