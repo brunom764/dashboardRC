@@ -19,7 +19,7 @@ exports[`<Categories /> should match snapshot 1`] = `
       class="flex flex-col lg:flex-row justify-around mx-2"
     >
       <div
-        class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
+        class="awssld h-96 w-32 m-auto lg:mx-5 mb-7 mt-5"
       >
         <div
           class="awssld__wrapper"
@@ -103,7 +103,7 @@ exports[`<Categories /> should match snapshot 1`] = `
         </nav>
       </div>
       <div
-        class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
+        class="awssld h-96 w-32 m-auto lg:mx-5 mb-7 mt-5"
       >
         <div
           class="awssld__wrapper"
@@ -187,7 +187,7 @@ exports[`<Categories /> should match snapshot 1`] = `
         </nav>
       </div>
       <div
-        class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
+        class="awssld h-96 w-32 m-auto lg:mx-5 mb-7 mt-5"
       >
         <div
           class="awssld__wrapper"
@@ -271,7 +271,7 @@ exports[`<Categories /> should match snapshot 1`] = `
         </nav>
       </div>
       <div
-        class="awssld h-96 w-32 m-auto md:mx-5 mb-7 mt-5"
+        class="awssld h-96 w-32 m-auto lg:mx-5 mb-7 mt-5"
       >
         <div
           class="awssld__wrapper"
