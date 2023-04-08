@@ -13,8 +13,6 @@ app.use((req, res, next) => {
   next();
 });
 
-
-
 app.get('/dashboardRC', (req, res) => {
   res.send('Bem-vindo à dashboard do RobôCIn!');
 });
