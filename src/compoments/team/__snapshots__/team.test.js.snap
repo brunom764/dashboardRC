@@ -3,7 +3,7 @@
 exports[`<LoadingScreen /> should match snapshot 1`] = `
 <div>
   <section
-    class="p-5 pt-10 pb-10  xl:h-screen bg-gray-100"
+    class="p-5 pt-10 pb-10  lg:h-screen bg-gray-100"
   >
     <h1
       class="title titleMain"
@@ -11,7 +11,7 @@ exports[`<LoadingScreen /> should match snapshot 1`] = `
       Depoimentos dos nossos membros
     </h1>
     <div
-      class="flex flex-col md:flex-row justify-around xl:mt-3 p-2"
+      class="flex flex-col lg:flex-row justify-around lg:mt-3 p-2"
     >
       <figure
         class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r"

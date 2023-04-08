@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import {Popover, Transition } from '@headlessui/react'
-import { ArrowPathIcon, Bars3Icon, BookOpenIcon, BuildingOfficeIcon,
+import { Bars3Icon, BookOpenIcon, BuildingOfficeIcon,
   UserIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon} from '@heroicons/react/20/solid'
 import logoW from '../../assets/logoW.png'
@@ -21,8 +21,6 @@ const products = [
   { key: 2, name: 'Membros', description: 'Colaboradores do projeto', href: '#', icon: UserIcon },
   { key: 3, name: 'Contatos', description: 'Fale conosco', href: '#', icon: PhoneIcon },
 ]
-
-
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
