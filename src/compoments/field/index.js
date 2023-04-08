@@ -12,12 +12,12 @@ const text = {title:'Nossa atuação', subtitle:'Nossa atuação é diversa de p
 export default function Field(){
 
     return(
-        <section className='p-5 pt-10 lg:h-screen'>
+        <section className='px-5 pt-10 lg:h-screen'>
             <h1 className="title titleMain">{text.title}</h1>
             <h2 className='subtitle subtitleMain'>{text.subtitle}</h2>
             <div className="flex flex-col lg:flex-row justify-around xl:mt-3">
             {fields.map((field) => (
-                <div className="p-4 mx-2 my-4 md:shadow-lg" key={field.key}>
+                <div className="p-4 mx-2 my-4 lg:shadow-lg" key={field.key}>
                     <field.icon className="h-40 w-40 text-green-600 mx-auto m-2 animate__animated animate__infinite animate__pulse" aria-hidden="true"/>
                     <h2
                     className="subtitle text-center m-5">
