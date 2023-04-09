@@ -9,7 +9,7 @@ const about = {title: 'Quem somos?',
 }
 
     return(
-        <section className='py-4 bg-gray-100 lg:h-screen'>
+        <section className='py-4 bg-gray-100 xl:h-screen'>
             <h1 className='title titleMain'>{about.title}</h1>
             <h2 className='subtitle subtitleMain'>{about.subtitle}</h2>
             <div className='m-10 flex justify-around items-center flex-col lg:flex-row p-2'>
