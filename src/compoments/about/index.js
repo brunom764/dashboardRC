@@ -13,7 +13,7 @@ const about = {title: 'Quem somos?',
             <h1 className='title titleMain'>{about.title}</h1>
             <h2 className='subtitle subtitleMain'>{about.subtitle}</h2>
             <div className='m-10 flex justify-around items-center flex-col lg:flex-row p-2'>
-                <img src={robots} className='h-96 w-auto lg:h-80  rounded-lg mb-3 shadow-lg shadow-green-200 xl:transform xl:scale-80 xl:-rotate-6 hover:-rotate-0' alt='robots'/>
+                <img src={robots} className='h-96 w-auto lg:h-80  saturate-200 rounded-lg mb-3 shadow-xl xl:transform xl:scale-80 xl:-rotate-6 hover:-rotate-0' alt='robots'/>
                 <div className='flex flex-col mx-2'>
                     <h4 className='subtitle py-4 text-center uppercase'>{about.titText}</h4>
                     <p className='text-lg text-justify text-gray-500 max-w-lg pt-1'>{about.text}</p>
