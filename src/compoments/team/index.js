@@ -17,7 +17,7 @@ export default function Team(){
     ];
 
     return (
-        <section className='p-5 pt-10 pb-10  lg:h-screen bg-gray-100'>
+        <section className='p-5 pt-10 pb-10  xl:h-screen bg-gray-100'>
         <h1 className="title titleMain">{text.title}</h1>
         <div className='flex flex-col lg:flex-row justify-around lg:mt-3 p-2'>
             {members.map((member) => (
