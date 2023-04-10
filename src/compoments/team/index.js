@@ -21,7 +21,7 @@ export default function Team(){
         <h1 className="title titleMain">{text.title}</h1>
         <div className='flex flex-col lg:flex-row justify-around lg:mt-3 p-2'>
             {members.map((member) => (
-                <figure key={member.key} className="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r">
+                <figure key={member.key} className="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-r">
                     <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8">
                         <h3 className="text-lg font-semibold text-gray-900 uppercase">{member.title}</h3>
                         <p className="my-4">"{member.message}"</p>
@@ -30,7 +30,7 @@ export default function Team(){
                         <img className="rounded-full w-9 h-9" src={member.img} alt={member.name}/>
                         <div className="space-y-0.5 font-medium text-left">
                             <div>{member.name}</div>
-                            <div className="text-sm text-gray-500 dark:text-gray-400">{member.pos}</div>
+                            <div className="text-sm text-gray-500">{member.pos}</div>
                         </div>
                     </figcaption>    
                 </figure>
