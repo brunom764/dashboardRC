@@ -3,7 +3,7 @@
 exports[`<About /> should match snapshot 1`] = `
 <div>
   <section
-    class="py-4 bg-gray-100 lg:h-screen"
+    class="py-4 bg-gray-100 xl:h-screen"
   >
     <h1
       class="title titleMain"
@@ -16,11 +16,11 @@ exports[`<About /> should match snapshot 1`] = `
       Somos um grupo de pesquisa em robótica do CIn - UFPE
     </h2>
     <div
-      class="m-10 flex justify-around items-center flex-col lg:flex-row p-2"
+      class="m-10 flex justify-around items-center flex-row flex-wrap p-2"
     >
       <img
         alt="robots"
-        class="h-96 w-auto lg:h-80  rounded-lg mb-3 shadow-lg shadow-green-200 xl:transform xl:scale-80 xl:-rotate-6 hover:-rotate-0"
+        class="max-h-80 w-auto saturate-200 rounded-lg mb-3 shadow-xl xl:transform xl:scale-80 xl:-rotate-6 hover:-rotate-0"
         src="robots.jpg"
       />
       <div

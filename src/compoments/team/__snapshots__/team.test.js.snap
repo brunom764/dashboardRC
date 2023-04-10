@@ -3,7 +3,7 @@
 exports[`<LoadingScreen /> should match snapshot 1`] = `
 <div>
   <section
-    class="p-5 pt-10 pb-10  lg:h-screen bg-gray-100"
+    class="p-5 pt-10 pb-10  xl:h-screen bg-gray-100"
   >
     <h1
       class="title titleMain"
@@ -14,7 +14,7 @@ exports[`<LoadingScreen /> should match snapshot 1`] = `
       class="flex flex-col lg:flex-row justify-around lg:mt-3 p-2"
     >
       <figure
-        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r"
+        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-r"
       >
         <blockquote
           class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
@@ -47,7 +47,7 @@ exports[`<LoadingScreen /> should match snapshot 1`] = `
               Ana Júlia
             </div>
             <div
-              class="text-sm text-gray-500 dark:text-gray-400"
+              class="text-sm text-gray-500"
             >
               Desenvolvedora VSS
             </div>
@@ -55,7 +55,7 @@ exports[`<LoadingScreen /> should match snapshot 1`] = `
         </figcaption>
       </figure>
       <figure
-        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r"
+        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-r"
       >
         <blockquote
           class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
@@ -88,7 +88,7 @@ exports[`<LoadingScreen /> should match snapshot 1`] = `
               Geydson Renan
             </div>
             <div
-              class="text-sm text-gray-500 dark:text-gray-400"
+              class="text-sm text-gray-500"
             >
               Simulação 2D
             </div>
@@ -96,7 +96,7 @@ exports[`<LoadingScreen /> should match snapshot 1`] = `
         </figcaption>
       </figure>
       <figure
-        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-b border-gray-200 md:border-r"
+        class="flex flex-col items-center justify-center p-6 m-2 text-center bg-white border-r"
       >
         <blockquote
           class="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8"
@@ -129,7 +129,7 @@ exports[`<LoadingScreen /> should match snapshot 1`] = `
               Maria Beatriz
             </div>
             <div
-              class="text-sm text-gray-500 dark:text-gray-400"
+              class="text-sm text-gray-500"
             >
               Comunicação
             </div>

@@ -3,7 +3,7 @@
 exports[`<Field /> should match snapshot 1`] = `
 <div>
   <section
-    class="px-5 pt-10 lg:h-screen"
+    class="px-5 pt-10 xl:h-screen"
   >
     <h1
       class="title titleMain"
@@ -16,10 +16,10 @@ exports[`<Field /> should match snapshot 1`] = `
       Nossa atuação é diversa de pesquisas cientifícas até competições de robótica
     </h2>
     <div
-      class="flex flex-col lg:flex-row justify-around xl:mt-3"
+      class="flex flex-row flex-wrap justify-around xl:mt-3"
     >
       <div
-        class="p-4 mx-2 my-4 lg:shadow-lg"
+        class="p-4 mx-2 my-4 md:shadow-lg"
       >
         <svg
           aria-hidden="true"
@@ -48,7 +48,7 @@ exports[`<Field /> should match snapshot 1`] = `
         </p>
       </div>
       <div
-        class="p-4 mx-2 my-4 lg:shadow-lg"
+        class="p-4 mx-2 my-4 md:shadow-lg"
       >
         <svg
           aria-hidden="true"
@@ -77,7 +77,7 @@ exports[`<Field /> should match snapshot 1`] = `
         </p>
       </div>
       <div
-        class="p-4 mx-2 my-4 lg:shadow-lg"
+        class="p-4 mx-2 my-4 md:shadow-lg"
       >
         <svg
           aria-hidden="true"
