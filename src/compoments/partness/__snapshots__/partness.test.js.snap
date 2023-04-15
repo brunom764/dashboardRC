@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Partness /> should match snapshot 1`] = `
+<div>
+  <section
+    class="py-5 px-2 bg-green-700 border-b border-white"
+  >
+    <h1
+      class="text-white font-bold text-center pb-3 uppercase"
+    >
+      Nossos patrocinadores
+    </h1>
+    <div
+      class="flex justify-center flex-row flex-wrap px-2"
+    >
+      <img
+        alt="CIn"
+        class="md:h-14 md:max-w-14 h-16 mx-auto m-2 p-2 opacity-80 hover:opacity-100"
+        src="cin.png"
+      />
+      <img
+        alt="Cesar School"
+        class="md:h-14 md:max-w-14 h-16 mx-auto m-2 p-2 opacity-80 hover:opacity-100"
+        src="cesar.png"
+      />
+      <img
+        alt="HSBS"
+        class="md:h-14 md:max-w-14 h-16 mx-auto m-2 p-2 opacity-80 hover:opacity-100"
+        src="hsbs.png"
+      />
+      <img
+        alt="Microsoft"
+        class="md:h-14 md:max-w-14 h-16 mx-auto m-2 p-2 opacity-80 hover:opacity-100"
+        src="microsoft.png"
+      />
+      <img
+        alt="Moura"
+        class="md:h-14 md:max-w-14 h-16 mx-auto m-2 p-2 opacity-80 hover:opacity-100"
+        src="moura.png"
+      />
+      <img
+        alt="Veroli"
+        class="md:h-14 md:max-w-14 h-16 mx-auto m-2 p-2 opacity-80 hover:opacity-100"
+        src="veroli.png"
+      />
+    </div>
+  </section>
+</div>
+`;
