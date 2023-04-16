@@ -26,7 +26,7 @@ img:vss, icon:FaBasketballBall}]
 
 export default function Categories(){
     return (
-        <section className='px-5 pt-1.5 pb-10 bg-gray-100 xl:h-screen'>
+        <section className='px-5 pt-1.5 pb-10 bg-gray-100 xl:min-h-screen'>
             <h1 className='title titleMain'>{text.title}</h1>
             <h2 className='subtitle subtitleMain'>{text.subtitle}</h2>
             <div className="flex flex-col lg:flex-row justify-around mx-2">
