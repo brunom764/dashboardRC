@@ -12,7 +12,7 @@ const text = {title:'Nossa atuação', subtitle:'Nossa atuação é diversa de p
 export default function Field(){
 
     return(
-        <section className='px-5 pt-10 xl:h-screen'>
+        <section className='px-5 pt-10 xl:min-h-screen'>
             <h1 className="title titleMain">{text.title}</h1>
             <h2 className='subtitle subtitleMain'>{text.subtitle}</h2>
             <div className="flex flex-row flex-wrap justify-around xl:mt-3">
