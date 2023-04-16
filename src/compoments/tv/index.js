@@ -9,7 +9,7 @@ export default function TV() {
   const text = {title:'Tv robôCIn', subtitle:'Nos acompanhe pelo YouTube e conheça mais do nosso projeto'}
 
   return (
-    <section className='px-5 py-10 lg:h-screen'>
+    <section className='px-5 py-10 xl:min-h-screen'>
             <h1 className="title titleMain">{text.title}</h1>
             <h2 className='subtitle subtitleMain'>{text.subtitle}</h2>
             <div className="flex flex-col lg:flex-row justify-around px-2 py-4">
