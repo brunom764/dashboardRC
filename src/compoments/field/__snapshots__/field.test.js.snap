@@ -3,7 +3,7 @@
 exports[`<Field /> should match snapshot 1`] = `
 <div>
   <section
-    class="px-5 pt-10 xl:h-screen"
+    class="px-5 pt-10 xl:min-h-screen"
   >
     <h1
       class="title titleMain"

@@ -3,7 +3,7 @@
 exports[`<About /> should match snapshot 1`] = `
 <div>
   <section
-    class="py-4 bg-gray-100 xl:h-screen"
+    class="py-4 bg-gray-100 xl:min-h-screen"
   >
     <h1
       class="title titleMain"
