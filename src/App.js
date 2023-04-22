@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import About from './compoments/about';
-import Banner from './compoments/banner';
-import Categories from './compoments/categories';
-import Field from './compoments/field';
-import Footer from './compoments/footer';
-import Header from './compoments/header';
-import NewsLetter from './compoments/newsletter';
-import TV from './compoments/tv';
-import Partness from './compoments/partness';
-import LoadingScreen from './compoments/loading';
-import Team from './compoments/team';
+import About from './components/about';
+import Banner from './components/banner';
+import Categories from './components/categories';
+import Field from './components/field';
+import Footer from './components/footer';
+import Header from './components/header';
+import NewsLetter from './components/newsletter';
+import TV from './components/tv';
+import Partness from './components/partness';
+import LoadingScreen from './components/loading';
+import Team from './components/team';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
