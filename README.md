@@ -41,3 +41,9 @@ $ git clone https://github.com/brunom764/dashboardRC.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd README-dashboardRC
+
+# Baixe as depedências
+$ npm i
+
+# Faça o deploy
+$ npm run start
