@@ -1,6 +1,6 @@
 # Dashboard
 
-Website para grupo de pesquisa em robótica
+Dashboard para grupo de pesquisa em robótica
 
 ### Visualize aqui: https://brunom764.github.io/dashboardRC/
 
