@@ -47,3 +47,6 @@ $ npm i
 
 # Faça o deploy
 $ npm run start
+
+# Ative o servidor
+$ npm run server
